@@ -105,8 +105,13 @@ nav a {
   max-width: 300px;
 }
 
-h5 {
+.tea h5 {
   margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#features h4 {
+  margin-bottom: 15px;
 }
 
 
@@ -124,6 +129,7 @@ h5 {
   flex-flow: column wrap;
   align-items: center;
   padding-top: 70px;
+  margin-top: 40px;
 }
 
 #address {
