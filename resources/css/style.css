@@ -56,8 +56,7 @@ nav a {
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
-  flex: 1 1;
-  max-width: 1200px;
+  width: 1200px;
   position: relative;
   display: flex;
   align-items: center;
@@ -84,6 +83,7 @@ nav a {
   width: 1000px;
   position: relative;
   padding-top: 70px;
+  margin-bottom: 50px;
 }
 
 #steep-teas {
@@ -121,15 +121,14 @@ nav a {
   background-image: url("../../resources/images/img-locations-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 500px;
+  max-height: 500px;
   position: relative;
   display: flex;
-  flex: 1 1;
-  width: 1200px;
+  flex: 1 1200px;
+  min-width: 1200px;
   flex-flow: column wrap;
   align-items: center;
   padding-top: 70px;
-  margin-top: 40px;
 }
 
 #address {
@@ -165,4 +164,9 @@ nav a {
 #copyright {
   margin-left: 20px;
   align-self: flex-start;
+}
+
+#contact a {
+  text-decoration: none;
+  color: SeaShell
 }
