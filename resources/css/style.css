@@ -105,3 +105,42 @@ nav a {
 h5 {
   margin-top: 10px;
 }
+
+
+/*Store Location section*/
+
+#location {
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  position: relative;
+  display: flex;
+  flex: 1 1;
+  width: 1200px;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+#address {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.store {
+  background-color: black;
+  opacity: 1;
+  margin: 15px 20px;
+  padding: 15px;
+  width: 300px;
+}
+
+.store p {
+  padding: 15px;
+}
+
+
+/*Contact Info section*/
