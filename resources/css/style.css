@@ -120,14 +120,14 @@ h5 {
   width: 1200px;
   flex-flow: column wrap;
   align-items: center;
-  justify-content: center;
   padding-top: 70px;
 }
 
 #address {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .store {
@@ -138,9 +138,22 @@ h5 {
   width: 300px;
 }
 
-.store p {
-  padding: 15px;
+#location h2 {
+  margin-bottom: 0px;
 }
 
 
 /*Contact Info section*/
+
+#contact {
+  height: 200px;
+  width: 100%;
+}
+
+
+/*Copyright section*/
+
+#copyright {
+  margin-left: 20px;
+  align-self: flex-start;
+}
